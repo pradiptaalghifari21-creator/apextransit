@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "apextransit",
+  "version": "${version}",
+  "name": "Apex Transit",
+  "description": "A vehicle-focused mod foundation for Minecraft Java Edition.",
+  "authors": ["Apex Transit Team"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.apextransit.ApexTransit"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}
